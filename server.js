@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // to make the server use/link/connect to the front-end files that are in the public folder 
 
-server.use(express.static('./public1'));
+server.use(express.static('./public'));
 
 //Now your server is ready but add server.listen at the end of the code
 // the following commands are just examples
