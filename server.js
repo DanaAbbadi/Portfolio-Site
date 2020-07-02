@@ -35,7 +35,7 @@ server.get('/data',(request,response)=>{
 
 
 
-// to make the server listen to your port 
+// to make the server listen to your port yy
 server.listen(PORT,()=>{
     console.log('Listening on port',PORT);
 });
